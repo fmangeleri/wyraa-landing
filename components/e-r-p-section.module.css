@@ -1,0 +1,168 @@
+.img51Icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 400px;
+}
+.img5Container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.h1,
+.h2 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+}
+.h1 {
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 90px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.h2 {
+  font-size: var(--h2-l-size);
+}
+.container5,
+.container51 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.container51 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-53xl);
+}
+.container5 {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-71xl);
+}
+.erp1Icon {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+.erpLine1,
+.erpLine2,
+.erps,
+.section5 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xl);
+}
+.erps,
+.section5 {
+  align-self: stretch;
+  padding: 0 0 0 var(--padding-41xl);
+  align-items: center;
+  justify-content: center;
+}
+.section5 {
+  background-color: var(--black);
+  flex-direction: column;
+  padding: var(--padding-61xl) var(--padding-41xl) var(--padding-61xl) 0;
+  gap: var(--gap-31xl);
+  text-align: right;
+  font-size: var(--h1-l-size);
+  color: var(--color-white);
+  font-family: var(--h2-l);
+}
+@media screen and (max-width: 1200px) {
+  .h1 {
+    font-size: var(--font-size-29xl);
+    line-height: 60px;
+  }
+  .erps,
+  .h1,
+  .h2,
+  .section5 {
+    align-self: stretch;
+    width: auto;
+  }
+  .h2 {
+    font-size: var(--font-size-5xl);
+  }
+  .erps,
+  .section5 {
+    height: auto;
+    box-sizing: border-box;
+  }
+  .erps {
+    padding-left: var(--padding-5xl);
+  }
+  .section5 {
+    padding-left: 0;
+    padding-right: var(--padding-5xl);
+  }
+}
+@media screen and (max-width: 960px) {
+  .img51Icon {
+    align-self: stretch;
+    width: auto;
+    flex: 1;
+    min-height: 250px;
+  }
+  .img5Container {
+    flex: unset;
+    align-self: stretch;
+  }
+  .h1 {
+    font-size: var(--h2-l-size);
+    line-height: 40px;
+    width: auto;
+  }
+  .container51,
+  .h1,
+  .h2 {
+    align-self: stretch;
+  }
+  .h2 {
+    font-size: var(--font-size-lg);
+    width: auto;
+  }
+  .container51 {
+    gap: var(--gap-xl);
+    flex: unset;
+  }
+  .container5 {
+    flex-direction: column;
+    gap: var(--gap-11xl);
+  }
+  .erp1Icon {
+    width: 100px;
+    height: 100px;
+  }
+  .erpLine2 {
+    width: auto;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+  }
+  .erps,
+  .section5 {
+    align-self: stretch;
+    width: auto;
+    height: auto;
+  }
+  .erps {
+    flex-direction: column;
+  }
+  .section5 {
+    gap: var(--gap-21xl);
+    padding: var(--padding-21xl) var(--padding-base) var(--padding-21xl) 0;
+    box-sizing: border-box;
+  }
+}

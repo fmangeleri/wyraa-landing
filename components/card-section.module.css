@@ -1,0 +1,111 @@
+.img2Icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 350px;
+}
+.img2Container {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.h1,
+.h2 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+}
+.h1 {
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 90px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.h2 {
+  font-size: var(--h2-l-size);
+}
+.container2,
+.section2 {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-21xl);
+}
+.container2 {
+  flex: 1;
+  flex-direction: column;
+  padding: 0 0 0 var(--padding-81xl);
+  justify-content: flex-start;
+}
+.section2 {
+  align-self: stretch;
+  background-color: var(--color-whitesmoke-100);
+  flex-direction: row;
+  padding: var(--padding-101xl) var(--padding-41xl);
+  justify-content: center;
+  text-align: right;
+  font-size: var(--h1-l-size);
+  color: var(--color-black);
+  font-family: var(--h2-l);
+}
+@media screen and (max-width: 1200px) {
+  .h1 {
+    font-size: var(--font-size-29xl);
+    line-height: 60px;
+  }
+  .h1,
+  .h2,
+  .section2 {
+    align-self: stretch;
+    width: auto;
+  }
+  .h2 {
+    font-size: var(--font-size-5xl);
+  }
+  .section2 {
+    height: auto;
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 960px) {
+  .img2Icon {
+    flex: 1;
+    align-self: stretch;
+    height: auto;
+    min-height: 260px;
+  }
+  .img2Container {
+    flex: unset;
+    align-self: stretch;
+  }
+  .h1 {
+    font-size: var(--h2-l-size);
+  }
+  .h2 {
+    font-size: var(--font-size-lg);
+  }
+  .container2,
+  .section2 {
+    align-self: stretch;
+    height: auto;
+    gap: var(--gap-xl);
+    box-sizing: border-box;
+  }
+  .container2 {
+    flex: unset;
+    padding-left: 0;
+  }
+  .section2 {
+    width: auto;
+    flex-direction: column;
+    padding: var(--padding-21xl) var(--padding-base);
+  }
+}
