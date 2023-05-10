@@ -48,7 +48,7 @@
   color: var(--color-black);
   font-family: var(--font-comfortaa);
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
   .controlDeGastos {
     font-size: var(--font-size-base);
   }

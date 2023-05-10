@@ -24,7 +24,7 @@
   color: var(--white);
   font-family: var(--font-poppins);
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
   .footer {
     align-self: stretch;
     width: auto;

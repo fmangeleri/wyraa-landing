@@ -101,7 +101,7 @@
   color: var(--color-black);
   font-family: var(--h2-l);
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
   .h1 {
     font-size: var(--font-size-29xl);
     line-height: 60px;
