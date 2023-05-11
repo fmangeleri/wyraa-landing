@@ -6,7 +6,7 @@ const ERPSection: NextPage = () => {
       <div className={styles.container5} id="container-5">
         <div className={styles.img5Container} id="img-5-container">
           <img
-            className={styles.img51Icon}
+            className={styles.img5Icon}
             alt=""
             id="img-5"
             src="/img5@2x.png"

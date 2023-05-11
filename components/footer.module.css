@@ -10,6 +10,7 @@
 .logoEnd {
   font-size: var(--font-size-13xl);
   font-family: var(--font-comfortaa);
+  text-align: right;
 }
 .footer {
   align-self: stretch;
@@ -29,6 +30,7 @@
     align-self: stretch;
     width: auto;
     height: auto;
+    gap: var(--gap-181xl);
     padding-left: var(--padding-5xl);
     padding-right: var(--padding-5xl);
     box-sizing: border-box;
@@ -48,7 +50,10 @@
     align-self: stretch;
     width: auto;
     height: auto;
+    flex-direction: column;
     gap: var(--gap-xl);
+    align-items: center;
+    justify-content: center;
     padding: var(--padding-21xl) var(--padding-base);
     box-sizing: border-box;
   }

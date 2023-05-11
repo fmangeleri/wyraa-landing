@@ -80,6 +80,7 @@
     font-size: var(--font-size-base);
   }
   .head {
+    gap: var(--gap-41xl);
     padding-left: var(--padding-base);
     padding-right: var(--padding-base);
     box-sizing: border-box;

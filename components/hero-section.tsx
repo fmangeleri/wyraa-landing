@@ -15,10 +15,12 @@ const HeroSection: NextPage = () => {
           </p>
         </div>
         <div className={styles.emailInput} id="subscribe-container">
-          <div className={styles.email}>email...</div>
-          <div className={styles.buttonSubscribe}>
-            <div className={styles.masInformacion}>mas informacion</div>
-          </div>
+          <input className={styles.email} type="text" placeholder="email..." />
+          <button className={styles.buttonSubscribe}>
+            <span className={styles.masInformacion} id="email-button">
+              mas informacion
+            </span>
+          </button>
         </div>
       </div>
       <div className={styles.img1Container} id="img-1-container">

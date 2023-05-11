@@ -22,13 +22,10 @@
   justify-content: flex-start;
   gap: var(--gap-21xl);
 }
-.img31Icon {
-  align-self: stretch;
-  flex: 1;
+.img3Icon {
   position: relative;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
+  width: 636px;
+  height: 608px;
   object-fit: cover;
   min-height: 330px;
 }
@@ -57,15 +54,20 @@
   .h1 {
     font-size: var(--font-size-29xl);
     line-height: 60px;
-  }
-  .h1,
-  .h2,
-  .section3 {
     align-self: stretch;
     width: auto;
   }
   .h2 {
     font-size: var(--font-size-5xl);
+  }
+  .h2,
+  .img3Icon,
+  .section3 {
+    align-self: stretch;
+    width: auto;
+  }
+  .img3Icon {
+    flex: 1;
   }
   .section3 {
     height: auto;
@@ -94,11 +96,9 @@
     height: auto;
     gap: var(--gap-xl);
   }
-  .img31Icon {
-    align-self: stretch;
-    width: auto;
+  .img3Icon {
     flex: 1;
-    min-height: 260px;
+    min-height: 200px;
   }
   .img3container {
     flex: unset;

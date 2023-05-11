@@ -1,10 +1,7 @@
-.img51Icon {
-  align-self: stretch;
-  flex: 1;
+.img5Icon {
   position: relative;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
+  width: 627px;
+  height: 618px;
   object-fit: cover;
   min-height: 400px;
 }
@@ -109,11 +106,11 @@
   }
 }
 @media screen and (max-width: 960px) {
-  .img51Icon {
+  .img5Icon {
     align-self: stretch;
     width: auto;
     flex: 1;
-    min-height: 250px;
+    min-height: 200px;
   }
   .img5Container {
     flex: unset;
@@ -164,5 +161,11 @@
     gap: var(--gap-21xl);
     padding: var(--padding-21xl) var(--padding-base) var(--padding-21xl) 0;
     box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 420px) {
+  .erp1Icon {
+    width: 70px;
+    height: 70px;
   }
 }
