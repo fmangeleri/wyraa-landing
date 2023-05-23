@@ -50,27 +50,6 @@
   color: var(--white);
   font-family: var(--h2-l);
 }
-@media screen and (max-width: 1280px) {
-  .h1 {
-    font-size: var(--font-size-29xl);
-    line-height: 60px;
-  }
-  .h1,
-  .h2,
-  .section2 {
-    align-self: stretch;
-    width: auto;
-  }
-  .h2 {
-    font-size: var(--font-size-5xl);
-  }
-  .section2 {
-    height: auto;
-    padding-left: var(--padding-5xl);
-    padding-right: var(--padding-5xl);
-    box-sizing: border-box;
-  }
-}
 @media screen and (max-width: 960px) {
   .img21Icon {
     width: 340px;
