@@ -49,32 +49,6 @@
   color: var(--black);
   font-family: var(--h2-l);
 }
-@media screen and (max-width: 1280px) {
-  .h1 {
-    font-size: var(--font-size-29xl);
-    line-height: 60px;
-    align-self: stretch;
-    width: auto;
-  }
-  .h2 {
-    font-size: var(--font-size-5xl);
-  }
-  .h2,
-  .img3Icon,
-  .section3 {
-    align-self: stretch;
-    width: auto;
-  }
-  .img3Icon {
-    flex: 1;
-  }
-  .section3 {
-    height: auto;
-    padding-left: var(--padding-5xl);
-    padding-right: var(--padding-5xl);
-    box-sizing: border-box;
-  }
-}
 @media screen and (max-width: 960px) {
   .h1 {
     font-size: var(--font-size-9xl);
