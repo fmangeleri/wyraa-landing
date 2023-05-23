@@ -44,23 +44,6 @@
   color: var(--black);
   font-family: var(--h2-l);
 }
-@media screen and (max-width: 1280px) {
-  .h1,
-  .section4 {
-    align-self: stretch;
-    width: auto;
-  }
-  .h1 {
-    font-size: var(--font-size-11xl);
-    line-height: 60px;
-  }
-  .section4 {
-    height: auto;
-    padding-left: var(--padding-5xl);
-    padding-right: var(--padding-5xl);
-    box-sizing: border-box;
-  }
-}
 @media screen and (max-width: 960px) {
   .container4,
   .h1 {
