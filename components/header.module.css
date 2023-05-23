@@ -48,27 +48,6 @@
   color: var(--black);
   font-family: var(--font-comfortaa);
 }
-@media screen and (max-width: 1280px) {
-  .controlDeGastos {
-    font-size: var(--font-size-base);
-  }
-  .contactanos {
-    font-size: var(--h2-l-size);
-  }
-  .head,
-  .menu {
-    width: auto;
-    height: auto;
-    gap: var(--gap-xl);
-  }
-  .head {
-    align-self: stretch;
-    gap: var(--gap-181xl);
-    padding-left: var(--padding-5xl);
-    padding-right: var(--padding-5xl);
-    box-sizing: border-box;
-  }
-}
 @media screen and (max-width: 960px) {
   .logo {
     font-size: var(--font-size-7xl);
