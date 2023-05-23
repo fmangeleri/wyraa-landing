@@ -14,7 +14,7 @@ const ApprovalSection: NextPage = () => {
           nos adaptamos.
         </p>
       </div>
-      <div className={styles.img3container} id="img-3-container">
+      <div className={styles.img3Container} id="img-3-container">
         <img className={styles.img3Icon} alt="" id="img-3" src="/img3@2x.png" />
       </div>
     </section>

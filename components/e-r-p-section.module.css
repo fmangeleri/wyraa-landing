@@ -1,16 +1,15 @@
 .img5Icon {
   position: relative;
-  width: 627px;
+  width: 550px;
   height: 618px;
   object-fit: cover;
   min-height: 400px;
 }
 .img5Container {
-  flex: 1;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: flex-end;
+  justify-content: center;
 }
 .h1,
 .h2 {
@@ -21,7 +20,7 @@
 .h1 {
   font-size: inherit;
   letter-spacing: -0.02em;
-  line-height: 90px;
+  line-height: 60px;
   font-weight: 400;
   font-family: inherit;
 }
@@ -33,16 +32,16 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  gap: var(--gap-21xl);
 }
 .container51 {
   flex: 1;
   flex-direction: column;
-  gap: var(--gap-53xl);
+  padding: 0 var(--padding-21xl) 0 0;
 }
 .container5 {
   align-self: stretch;
   flex-direction: row;
-  gap: var(--gap-71xl);
 }
 .erp1Icon {
   position: relative;
@@ -58,23 +57,22 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: var(--gap-8xl);
+  gap: var(--gap-5xl);
 }
 .erps,
 .section5 {
   align-self: stretch;
-  padding: 0 0 0 var(--padding-41xl);
   align-items: center;
   justify-content: center;
 }
 .section5 {
   background-color: var(--black);
   flex-direction: column;
-  padding: var(--padding-61xl) var(--padding-41xl) var(--padding-61xl) 0;
+  padding: var(--padding-61xl) 0;
   gap: var(--gap-31xl);
   text-align: right;
   font-size: var(--h1-l-size);
-  color: var(--color-white);
+  color: var(--white);
   font-family: var(--h2-l);
 }
 @media screen and (max-width: 1280px) {
@@ -107,17 +105,17 @@
 }
 @media screen and (max-width: 960px) {
   .img5Icon {
-    align-self: stretch;
-    width: auto;
-    flex: 1;
-    min-height: 200px;
+    width: 340px;
+    height: 382px;
   }
   .img5Container {
-    flex: unset;
-    align-self: stretch;
+    flex: 1;
+    height: auto;
+    align-items: flex-start;
+    justify-content: center;
   }
   .h1 {
-    font-size: var(--h2-l-size);
+    font-size: var(--font-size-9xl);
     line-height: 40px;
     width: auto;
   }
@@ -132,6 +130,9 @@
   }
   .container51 {
     gap: var(--gap-xl);
+    padding-left: var(--padding-base);
+    padding-right: var(--padding-base);
+    box-sizing: border-box;
     flex: unset;
   }
   .container5 {
@@ -142,9 +143,12 @@
     width: 100px;
     height: 100px;
   }
+  .erpLine1,
   .erpLine2 {
     width: auto;
     height: auto;
+  }
+  .erpLine2 {
     align-items: center;
     justify-content: center;
   }
@@ -159,7 +163,9 @@
   }
   .section5 {
     gap: var(--gap-21xl);
-    padding: var(--padding-21xl) var(--padding-base) var(--padding-21xl) 0;
+    align-items: flex-start;
+    justify-content: center;
+    padding: var(--padding-21xl) 0;
     box-sizing: border-box;
   }
 }

@@ -9,7 +9,7 @@
 .contactanos {
   margin: 0;
   position: relative;
-  font-size: var(--font-size-5xl);
+  font-size: var(--font-size-base);
   font-family: var(--font-inter);
   color: var(--black);
   text-align: right;
@@ -35,17 +35,17 @@
 }
 .menu {
   justify-content: flex-start;
-  gap: var(--gap-16xl);
-  font-size: var(--font-size-xl);
+  gap: var(--gap-base);
+  font-size: var(--font-size-base);
   font-family: var(--font-inter);
 }
 .head {
   align-self: stretch;
-  padding: var(--padding-21xl) var(--padding-41xl);
+  padding: var(--padding-21xl);
   justify-content: space-between;
   text-align: left;
   font-size: var(--font-size-13xl);
-  color: var(--color-black);
+  color: var(--black);
   font-family: var(--font-comfortaa);
 }
 @media screen and (max-width: 1280px) {
@@ -53,7 +53,7 @@
     font-size: var(--font-size-base);
   }
   .contactanos {
-    font-size: var(--font-size-xl);
+    font-size: var(--h2-l-size);
   }
   .head,
   .menu {

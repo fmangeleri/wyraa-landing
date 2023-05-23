@@ -17,7 +17,7 @@
   background-color: var(--black);
   display: flex;
   flex-direction: row;
-  padding: var(--padding-81xl) var(--padding-41xl);
+  padding: var(--padding-81xl) var(--padding-21xl);
   align-items: flex-start;
   justify-content: space-between;
   text-align: left;
@@ -43,7 +43,7 @@
     text-align: center;
   }
   .logoEnd {
-    font-size: var(--h2-l-size);
+    font-size: var(--font-size-9xl);
     text-align: center;
   }
   .footer {

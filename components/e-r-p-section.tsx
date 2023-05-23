@@ -14,7 +14,7 @@ const ERPSection: NextPage = () => {
         </div>
         <div className={styles.container51} id="texts-5">
           <h1 className={styles.h1} id="h1-5">
-            Automatiza tu contabilidad
+            Automatiza la carga de facturas y compras
           </h1>
           <p className={styles.h2} id="h2-5">
             Elimina tareas manuales, scanea facturas y tickets de compra,

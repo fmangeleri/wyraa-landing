@@ -24,7 +24,7 @@ const HeroSection: NextPage = () => {
         </div>
       </div>
       <div className={styles.img1Container} id="img-1-container">
-        <img className={styles.img1Icon} alt="" id="img-1" src="/img1@2x.png" />
+        <img className={styles.img1Icon} alt="" src="/img1@2x.png" />
       </div>
     </section>
   );

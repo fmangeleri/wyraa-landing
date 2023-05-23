@@ -1,6 +1,6 @@
 .landingPage {
   position: relative;
-  background-color: var(--color-white);
+  background-color: var(--white);
   width: 100%;
   overflow: hidden;
   display: flex;
