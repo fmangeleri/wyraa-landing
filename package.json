@@ -5,7 +5,7 @@
   "dependencies": {
     "body-parser": "^1.20.2",
     "express": "^4.18.2",
-    "next": "^13.2.4",
+    "next": "^14.1.0",
     "node-fetch": "^2.6.11",
     "node-mailjet": "^6.0.2",
     "react": "^18.2.0",
@@ -20,7 +20,7 @@
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "eslint": "8.17.0",
-    "eslint-config-next": "13.2.4",
+    "eslint-config-next": "^14.1.0",
     "typescript": "4.7.3"
   },
   "scripts": {

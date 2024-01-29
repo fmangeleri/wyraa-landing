@@ -1,5 +1,6 @@
 import type { NextPage } from 'next';
 import styles from './header.module.css';
+import Link from 'next/link';
 const Header: NextPage = () => {
   return (
     <header
@@ -16,7 +17,7 @@ const Header: NextPage = () => {
         className={styles.menu}
         id='menu'
       >
-        <a
+        <Link
           className={styles.navLink}
           href='#section-2'
         >
@@ -26,9 +27,9 @@ const Header: NextPage = () => {
           >
             Tarjetas corporativas
           </h2>
-        </a>
+        </Link>
 
-        <a
+        <Link
           className={styles.navLink}
           href='#section-3'
         >
@@ -38,9 +39,9 @@ const Header: NextPage = () => {
           >
             Control de gastos
           </h2>
-        </a>
+        </Link>
 
-        <a
+        <Link
           className={styles.navLink}
           href='#section-5'
         >
@@ -50,15 +51,7 @@ const Header: NextPage = () => {
           >
             Automatizacion de facturas
           </h2>
-        </a>
-        <button className={styles.menuButton}>
-          <p
-            className={styles.contactanos}
-            id='menu-button-text'
-          >
-            Contactanos
-          </p>
-        </button>
+        </Link>
       </div>
     </header>
   );

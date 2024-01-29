@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import styles from "./approval-section.module.css";
+import Image from "next/image";
 const ApprovalSection: NextPage = () => {
   return (
     <section className={styles.section3} id="section-3">
@@ -15,7 +16,7 @@ const ApprovalSection: NextPage = () => {
         </p>
       </div>
       <div className={styles.img3Container} id="img-3-container">
-        <img className={styles.img3Icon} alt="" id="img-3" src="/img3@2x.png" />
+        <Image className={styles.img3Icon} alt="" id="img-3" src="/img3@2x.png" width={500} height={478} />
       </div>
     </section>
   );

@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import styles from "./budget-section.module.css";
+import Image from "next/image";
 const BudgetSection: NextPage = () => {
   return (
     <section className={styles.section4} id="section-4">
@@ -10,9 +11,9 @@ const BudgetSection: NextPage = () => {
         </h1>
       </div>
       <div className={styles.steps}>
-        <img className={styles.step1Icon} alt="" src="/step1@2x.png" />
-        <img className={styles.step1Icon} alt="" src="/step2@2x.png" />
-        <img className={styles.step1Icon} alt="" src="/step3@2x.png" />
+        <Image className={styles.step1Icon} alt="" src="/step1@2x.png" width={350} height={440} />
+        <Image className={styles.step1Icon} alt="" src="/step2@2x.png" width={350} height={440} />
+        <Image className={styles.step1Icon} alt="" src="/step3@2x.png" width={350} height={440} />
       </div>
     </section>
   );

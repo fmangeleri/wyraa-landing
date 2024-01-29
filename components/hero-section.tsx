@@ -1,37 +1,10 @@
 import type { NextPage } from 'next';
 import { useState } from 'react';
 import styles from './hero-section.module.css';
+import Image from 'next/image';
+import HeroSectionEmailInput from './hero-section-email-input';
 
 const HeroSection: NextPage = () => {
-  const [email, setEmail] = useState('');
-
-  const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setEmail(event.target.value);
-  };
-
-  const handleSaveClick = async () => {
-    // Aquí puedes realizar la lógica para guardar el correo electrónico
-    console.log(`Guardar correo electrónico: ${email}`);
-
-    try {
-      const response = await fetch('/api', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ email }),
-      });
-
-      if (response) {
-        const data = await response.json();
-        console.log(data); // Hacer algo con la respuesta
-      } else {
-        console.error('Error al agregar el contacto');
-      }
-    } catch (error) {
-      console.error('Error al realizar la solicitud');
-    }
-  };
 
   return (
     <section
@@ -61,38 +34,18 @@ const HeroSection: NextPage = () => {
             agradable.
           </p>
         </div>
-        <div
-          className={styles.emailInput}
-          id='subscribe-container'
-        >
-          <input
-            className={styles.email}
-            type='email'
-            placeholder='email...'
-            value={email}
-            onChange={handleInputChange}
-          />
-          <button
-            className={styles.buttonSubscribe}
-            onClick={handleSaveClick}
-          >
-            <span
-              className={styles.masInformacion}
-              id='email-button'
-            >
-              mas informacion
-            </span>
-          </button>
-        </div>
+        <HeroSectionEmailInput />
       </div>
       <div
         className={styles.img1Container}
         id='img-1-container'
       >
-        <img
+        <Image
           className={styles.img1Icon}
           alt=''
           src='/img1@2x.png'
+          width={710}
+          height={660}
         />
       </div>
     </section>
